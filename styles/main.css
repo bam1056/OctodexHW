@@ -1,7 +1,10 @@
+/*Global Styles*/
 body {
   padding: 0;
   margin: 0;
 }
+
+/*Header Styles*/
 .logo{
   margin-left: 15px;
 }
@@ -35,6 +38,11 @@ header li a {
   text-decoration: none;
   color: black;
 }
+
+/*Main Styles*/
+/*-----------------------*/
+
+/*Flex container for all image flex objects*/
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -43,6 +51,24 @@ header li a {
 .gallery a {
   text-decoration: none;
   color: black;
+}
+/*Flex container for each gallery flex object*/
+.octocat {
+  position: relative;
+  margin: 15px;
+}
+
+/*Triangle at the bottom of the image border*/
+.octocat::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 10px 0 10px;
+  border-color: #ccc transparent transparent transparent;
+  position: absolute;
+  left: 400px;
+  bottom: 48px;​
 }
 .octImg {
   margin-bottom: 0;
@@ -77,22 +103,7 @@ header li a {
   font-weight:bold;
   font-family: "Helvetica Neue"
 }
-.octocat {
-  position: relative;
-  margin: 15px;
-}
 
-.octocat::after {
-  content: "";
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10px 10px 0 10px;
-  border-color: #ccc transparent transparent transparent;
-  position: absolute;
-  left: 400px;
-  bottom: 48px;​
-}
 
 .authorImg {
   margin-top: 10px;
