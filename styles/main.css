@@ -29,6 +29,11 @@ header li {
   font-weight: bold;
   font-size: 15px;
   line-height: 25px;
+
+}
+header li a {
+  text-decoration: none;
+  color: black;
 }
 .gallery {
   display: flex;
@@ -54,6 +59,10 @@ header li {
   border-bottom: 1px solid #ccc;
 }
 
+.footer span {
+  color: #777777;
+}
+
 .number {
   display: flex;
   margin-left: 15px;
@@ -64,6 +73,10 @@ header li {
   margin-left: 200px;
 }
 
+.purchasable a {
+  font-weight:bold;
+  font-family: "Helvetica Neue"
+}
 .octocat {
   position: relative;
   margin: 15px;
@@ -78,7 +91,7 @@ header li {
   border-color: #ccc transparent transparent transparent;
   position: absolute;
   left: 400px;
-  bottom: 45px;​
+  bottom: 48px;​
 }
 
 .authorImg {
