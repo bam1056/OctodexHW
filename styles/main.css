@@ -108,3 +108,25 @@ header li a {
 .authorImg {
   margin-top: 10px;
 }
+/*Page footer styles*/
+footer{
+  border-top: 1px solid #ccc;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  margin-left: 15px;
+}
+
+footer li{
+  margin-left: 15px;
+}
+
+footer span {
+  margin-right: 15px;
+}
